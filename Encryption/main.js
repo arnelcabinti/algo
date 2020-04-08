@@ -1,8 +1,4 @@
 
-
-// let input = "chillout";
-// let x = 8;
-
 // Create own function instead of Math using library
 let getSqrt = (number) => {
     let sqrt = number / 2;
@@ -50,70 +46,3 @@ let getRowColumn = (s) => {
 }
 
 getRowColumn();
-
-5 5
-
-pos 4 3 
-
-top 5 - 4(r) = 1
-
-right 5 - 3(c) = 2
-
-left 3(c) - 1 = 2
-
-bot 4(r) - 1 = 3
-
-
-Back Slash (up= +-, down = -+)
-5 2
-4 3
-3 4
-2 5
-
-Slash (up = ++, down = --) 
-5 4
-4 3
-3 2
-2 1
-
-Blocker
-2 3 = 2
-4 2 =
-5 5 = 
-
-
-bc == oc : (br > or ? br - 5 : br - 1) + 1
-br == or : (bc > oc ? bc - 5 ? bc - 1) + 1 
-
-
-
-4 3
-
-2 3
-1
-= 1 + 1
- 
- 
-4 2
-  1
-= 1 + 1
-
-5 3
-5 
-= 0 + 1
-
-
-4 3
-5
-= 1 + 1
-
-
-
-
-
-
-
-
-
-
-
