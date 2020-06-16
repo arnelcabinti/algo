@@ -30,65 +30,34 @@ let sorting = () => {
 
 sorting();
 
-let parenthesis = () => {
-    let txt = "foo(foo(bar))te(a)st";
-    var newTxt = txt.split('(');
-    console.log(newTxt)
-    let j ="";
-    for (var i = 1; i < newTxt.length; i++) {
-        let y = newTxt[i].split(')')[0];
-        j += y;
-    }
-    // console.log(j)
-   
-}
 
 function reverse(s){
     return s.split("").reverse().join("");
 }
 
-parenthesis();
-
 
 class Stack { 
-  
-    // Array is used to implement stack 
-    constructor() 
-    { 
+    constructor() { 
         this.items = []; 
     } 
-  
-    // Functions to be implemented 
-    
-    push(element) 
-    { 
+
+    push(element) { 
         // push element into the items 
         this.items.push(element); 
     } 
-    pop() 
-    { 
-        // return top most element in the stack 
-        // and removes it from the stack 
-        // Underflow if stack is empty 
+
+    pop(){ 
         if (this.items.length == 0) 
             return "Underflow"; 
         return this.items.pop(); 
     }
-
-    isEmpty() 
-    { 
-        // return true if stack is empty 
-        return this.items.length == 0; 
-    }
-
-    peek() 
-    { 
-        // return the top most element from the stack 
-        // but does'nt delete it. 
-        return this.items[this.items.length - 1]; 
-    } 
-
 } 
+
+console.log(`
+    
+-----------
+
+`)
 
 
 let ReverseParenthesessss = (str) => {
