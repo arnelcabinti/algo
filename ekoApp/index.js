@@ -60,7 +60,7 @@ console.log(`
 `)
 
 
-let ReverseParenthesessss = (str) => {
+let reverseWordInsideParentheses = (str) => {
 
     var stack = new Stack(); 
 
@@ -89,5 +89,5 @@ let ReverseParenthesessss = (str) => {
 let arr = ["foo(bar)", "(bar)" , "foo(bar)blim", "foo(foo(bar))blim"];
 
 for(let i =0 ; i < arr.length; i++){
-    console.log(`${arr[i]} => ${ReverseParenthesessss(arr[i])}`);
+    console.log(`${arr[i]} => ${reverseWord(arr[i])}`);
 }
